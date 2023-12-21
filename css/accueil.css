@@ -1,0 +1,61 @@
+#accueil {
+    display: flex;
+}
+.accueil_section {
+    display: flex;
+}
+ #accueil h2, h3 {
+    margin-left: 20px;
+ }
+
+.accueil_nom,
+.accueil_saison, a {
+    font-family: 'Pacifico', cursive;
+}
+
+.accueil_1w1,
+.accueil_mais,
+.accueil_tim,
+.accueil_ele {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(1.25rem, 0.2083rem + 3.3333vw, 2.5rem);
+
+}
+.accueil_titre,
+.accueil_tp2 {
+    font-family: 'Titan One', sans-serif;
+}
+
+.accueil_titre {
+    font-size: clamp(3.75rem, 1.0417rem + 8.6667vw, 7rem);    display: flex;
+    justify-content: center;
+}
+
+.accueil_nom {
+    margin: 10px;
+    font-size: clamp(1.25rem, 0.2083rem + 3.3333vw, 2.5rem);
+}
+#accueil img {
+    display: flex;
+    margin-left: 600px;
+    margin-bottom: 150px;
+    width: 30%;
+
+}
+.accueil_figmais {
+    text-align: center;
+}
+.accueil_ele {
+    margin-top: 70px;
+}
+
+#accueil h2, h3 {
+    color: black;
+}
+
+#accueil a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: clamp(1.25rem, 0.2083rem + 3.3333vw, 2.5rem);
+    color: blue;
+}

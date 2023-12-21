@@ -1,0 +1,44 @@
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.formulaire label {
+    
+}
+.formulaire input[type=text] {
+    width: 200px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+#etiquette_nom {
+    margin-right: 160px;
+}
+#etiquette_prenom {
+    margin-right: 142px;
+}
+#etiquette_telephone {
+    margin-right: 126px;
+}
+#etiquette_ecole {
+    margin-right: 156px;
+}
+
+.form_chk {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.form_chk label {
+    padding-left: 20px;
+}
+
+#input_ecole {
+    width: 200px;
+}
+
+
+

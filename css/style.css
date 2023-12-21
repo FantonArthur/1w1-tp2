@@ -1,0 +1,73 @@
+/* ------------------------ INITIALISATION */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+/* ----------------------------------------------- */
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: deepskyblue;
+}
+.menu a {
+    color: black;
+}
+/* les conteneurs "div" autour de chaque section */
+.global {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    min-width: 100%; 
+    min-height: 100vh;
+}
+.global section, 
+.global header,
+.global footer {
+    display: flex;
+    flex: 0 1 1000px;
+   /*  border: 1px solid black; */
+    background-color: rgba(0, 0, 0, .1);
+}
+.global section, .global footer {
+    flex-direction: column;
+}
+#entete {
+    background-color: deepskyblue;
+    border: 1px solid black;
+    min-height: 1vh;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+#entete header {
+    justify-content: space-between;
+    align-items: center;
+    /* permet de definir le referentiel pour le menu */
+    position: relative;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 3rem
+}
+#entete h1 {
+    margin-right: 500px;
+}
+h2 {
+    margin-top: 1vh;
+}
+
+
+
+
+
+

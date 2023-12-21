@@ -1,0 +1,57 @@
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid #444;
+    padding: 2px;
+}
+
+td {
+    background-color: #fff;
+    text-align: center;
+
+}
+th{
+    background-color: #aaa;
+}
+
+.pauses{
+    background-color: rgba(48, 224, 48, 0.711);
+}
+
+.ConGraphique {
+    background-color: rgba(229, 255, 0, 0.848);
+    
+}
+
+.vidéo {
+    background-color: rgba(0, 255, 255, 0.79);
+    
+}
+
+.MiseenPage {
+    background-color: rgba(255, 0, 170, 0.778);
+    
+}
+
+.animation {
+    background-color: rgba(255, 255, 0, 0.612);
+    
+}
+
+.francais {
+    background-color: rgba(72, 13, 249, 0.784);
+    
+}
+
+.anglais {
+    background-color: rgba(0, 128, 0, 0.636);
+    
+}
+
+.badminton {
+    background-color: rgba(95, 158, 160, 0.623);
+   
+}

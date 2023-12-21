@@ -1,0 +1,52 @@
+
+
+  #epreuve p {
+        /* permet de changer la taille, couleur, etc du texte "p" */
+    font-family: 'Satisfy', cursive;
+    width: 70%;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    /* font-size: clamp(1.25rem, -0.0521rem + 4.1667vw, 2.3rem); */
+  }
+  #epreuve img {
+    /* permet de rajouter de la beauté sur les images */
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 150px;
+    margin-top: 60px;
+  }
+
+  #epreuve figcaption {
+            /* permet de changer la taille, couleur, etc de "figcaption" */
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    margin-top: 5px;
+    
+  }
+
+  /* permet que chaque section soit inverse l'une après l'autre */
+.epreuve__section:nth-of-type(odd)  {
+     flex-direction: row-reverse;
+  }
+  .epreuve__section:nth-of-type(even)  {
+    flex-direction: row;
+ }
+
+.epreuve__section {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-around;
+    margin-top: 60px;
+}
+#epreuve h2, h3 {
+    /* permet de changer la taille, couleur, etc du texte "h2" */
+    font-family: 'Titan One', sans-serif;
+    margin: 10px;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+/* permet que chaque image rotationne de côtés différents selon leur côté "odd/even" */
